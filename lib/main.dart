@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
           value: GreatPlaces(),
           child: MaterialApp(
         title: 'Device app',
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.green,
           accentColor: Colors.orange,
